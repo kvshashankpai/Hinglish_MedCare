@@ -1,0 +1,55 @@
+{
+  "condition": "fever_cold_diarrhea",
+  "_source_note": "Draft checklist based on WHO/IMNCI (Integrated Management of Neonatal and Childhood Illness) danger-sign framework. VERIFY every field against the official WHO/IMNCI document your team has selected before final use. Not a diagnostic tool.",
+  "sub_conditions": ["fever", "common_cold", "diarrhea"],
+  "required_information": {
+    "age": {
+      "description": "Age of the patient (thresholds differ a lot for infants vs older children/adults)",
+      "required": true
+    },
+    "duration": {
+      "description": "How long the fever/cold/diarrhoea has been present",
+      "required": true
+    },
+    "temperature_or_how_hot": {
+      "description": "Measured temperature if available, or caregiver description of how high the fever feels",
+      "required": true
+    },
+    "drinking_or_breastfeeding_ability": {
+      "description": "Whether the patient can drink/breastfeed normally, poorly, or not at all (IMNCI danger sign)",
+      "required": true
+    },
+    "vomiting": {
+      "description": "Whether vomiting is present, and whether the patient vomits everything",
+      "required": true
+    },
+    "convulsions": {
+      "description": "Any history of convulsions/fits during this illness (IMNCI danger sign)",
+      "required": true
+    },
+    "lethargy_or_unconsciousness": {
+      "description": "Whether the patient is unusually sleepy, difficult to wake, or unconscious (IMNCI danger sign)",
+      "required": true
+    },
+    "breathing_difficulty": {
+      "description": "Fast or difficult breathing, chest indrawing (relevant for cold/cough progressing to pneumonia)",
+      "required": true
+    },
+    "blood_in_stool": {
+      "description": "For diarrhoea: whether there is blood in the stool (dysentery marker)",
+      "required": false
+    },
+    "number_of_stools_per_day": {
+      "description": "For diarrhoea: frequency of loose stools",
+      "required": false
+    },
+    "dehydration_signs": {
+      "description": "Sunken eyes, skin pinch goes back slowly, restlessness/irritability, reduced urination",
+      "required": true
+    },
+    "cough_or_nasal_symptoms": {
+      "description": "For cold: presence of cough, runny/blocked nose, sore throat",
+      "required": false
+    }
+  }
+}

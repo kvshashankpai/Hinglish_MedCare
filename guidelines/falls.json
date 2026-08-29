@@ -1,0 +1,42 @@
+{
+  "condition": "falls",
+  "_source_note": "Draft checklist. VERIFY against WHO Guidelines for trauma/injury first-aid and IMNCI/IMCI child injury sections before final use. Not a diagnostic tool.",
+  "required_information": {
+    "age": {
+      "description": "Age of the injured person (child vs adult changes urgency)",
+      "required": true
+    },
+    "height_of_fall": {
+      "description": "What they fell from (ground level, stairs, tree, roof, ladder) - height is a key severity marker",
+      "required": true
+    },
+    "loss_of_consciousness": {
+      "description": "Whether the person lost consciousness, even briefly, after the fall",
+      "required": true
+    },
+    "can_move_limbs": {
+      "description": "Whether the person can move all limbs / bear weight (possible fracture check)",
+      "required": true
+    },
+    "visible_deformity_or_bleeding": {
+      "description": "Any visible bone deformity, open wound, or heavy bleeding at the injury site",
+      "required": true
+    },
+    "head_neck_back_involved": {
+      "description": "Whether the head, neck, or back was hit or is painful (spinal injury risk)",
+      "required": true
+    },
+    "pain_level_and_location": {
+      "description": "Where it hurts and how severe",
+      "required": true
+    },
+    "vomiting_after_fall": {
+      "description": "Vomiting after a head injury is a red-flag sign",
+      "required": true
+    },
+    "time_since_fall": {
+      "description": "How long ago the fall happened",
+      "required": true
+    }
+  }
+}

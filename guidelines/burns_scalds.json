@@ -1,0 +1,42 @@
+{
+  "condition": "burns_scalds",
+  "_source_note": "Draft checklist based on general burn-assessment guidance (TBSA / rule-of-nines / Lund-Browder, ANZCOR & WHO-aligned first aid principles). VERIFY against WHO/national burn-management guideline your team selects before final use. Not a diagnostic tool.",
+  "required_information": {
+    "age": {
+      "description": "Age of the person (children/older adults burn more severely at same exposure)",
+      "required": true
+    },
+    "cause_of_burn": {
+      "description": "Flame, hot liquid/scald, hot object contact, electrical, chemical",
+      "required": true
+    },
+    "time_since_burn": {
+      "description": "How long ago the burn occurred and whether first aid (cooling) was already given",
+      "required": true
+    },
+    "body_part_affected": {
+      "description": "Which part of the body - face, hands, feet, genitals, joints, or airway/around mouth-nose are always higher severity",
+      "required": true
+    },
+    "approximate_size": {
+      "description": "Rough size of the burn area, e.g. smaller than a palm vs larger, or which body parts covered (proxy for %TBSA)",
+      "required": true
+    },
+    "blistering_or_skin_appearance": {
+      "description": "Redness only vs blisters vs charred/white/leathery skin (depth indicator)",
+      "required": true
+    },
+    "pain_level": {
+      "description": "Pain severity - note: full-thickness burns can be less painful due to nerve damage, which is itself a red flag",
+      "required": true
+    },
+    "circumferential": {
+      "description": "Whether the burn goes all the way around a limb, finger, or the chest",
+      "required": false
+    },
+    "smoke_or_enclosed_space_exposure": {
+      "description": "Whether burn happened in an enclosed space / near smoke (inhalation injury risk)",
+      "required": true
+    }
+  }
+}

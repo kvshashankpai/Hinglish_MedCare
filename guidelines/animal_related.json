@@ -1,0 +1,46 @@
+{
+  "condition": "animal_related",
+  "_source_note": "Draft checklist based on WHO snakebite envenoming guidance and Indian NHM Standard Treatment Guidelines for Snakebite. VERIFY against your team's selected official source (WHO / NHM STG / national rabies & animal bite guidelines) before final use. Not a diagnostic tool.",
+  "required_information": {
+    "animal_type": {
+      "description": "What kind of animal (snake, dog, scorpion, cattle/livestock, other) and, if known, how it looked",
+      "required": true
+    },
+    "time_since_incident": {
+      "description": "How long ago the bite/kick/sting happened",
+      "required": true
+    },
+    "bite_or_injury_site": {
+      "description": "Location on the body of the bite, sting, or injury",
+      "required": true
+    },
+    "progressive_swelling_or_pain": {
+      "description": "Whether swelling or pain at the site is spreading/increasing (snakebite envenomation marker)",
+      "required": true
+    },
+    "bleeding_abnormal": {
+      "description": "Unusual bleeding from the bite site, gums, or elsewhere (bleeding syndrome marker for snakebite)",
+      "required": true
+    },
+    "neurological_signs": {
+      "description": "Drooping eyelids, blurred vision, difficulty speaking/swallowing, muscle weakness (neurotoxic marker)",
+      "required": true
+    },
+    "breathing_difficulty": {
+      "description": "Any difficulty breathing or chest tightness",
+      "required": true
+    },
+    "for_animal_bites_provoked_or_unprovoked": {
+      "description": "For dog/animal bites: was the animal a stray, was it provoked, is it known/vaccinated (rabies risk assessment)",
+      "required": false
+    },
+    "wound_appearance": {
+      "description": "Puncture marks, laceration, crush injury, bruising",
+      "required": true
+    },
+    "age_of_patient": {
+      "description": "Age of the person bitten/injured",
+      "required": true
+    }
+  }
+}
