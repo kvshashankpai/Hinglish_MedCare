@@ -145,6 +145,7 @@ def process(db,c,text):
             response="Ye potentially serious situation ho sakti hai. "+WHO_FIRST_AID+" Agar saans lene mein dikkat, behoshi ya smoke inhalation hua hai, turant emergency medical care lein."
         else:
             missing=[f for f in FIELDS if f!="age" and getattr(c.assessment,f) in (None,"","unknown")]
+            c.assessment.missing_information=missing
             c.current_stage="ASSESS_BURN"
             if missing:
                 response="Samajh gaya — burn/scald case hai. "+WHO_FIRST_AID+"\n\nMain aapke message mein jo details already mili hain unhe repeat nahi karunga. "+QUESTIONS[missing[0]]
