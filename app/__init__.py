@@ -1,0 +1,1 @@
+"""Hinglish MedCare application package."""
